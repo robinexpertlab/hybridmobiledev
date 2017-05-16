@@ -1,0 +1,11 @@
+var arr = Array(3,2,4,5,6);
+var p = ('s','g');
+var l = [2,3];
+var h = {_1:3};
+console.log('h -' + h._1);
+console.log('arr - '+ typeof(arr));
+console.log('() '+typeof(p));
+console.log('{}'+ typeof(h));
+//var rem = arr.slice(2);
+var rem = Array.prototype.slice.call(arr,2);
+console.log(rem);

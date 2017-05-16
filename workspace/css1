@@ -1,0 +1,28 @@
+<html>
+	<head>
+	<title>
+		CSS With ID
+	</title>
+	<style>
+
+
+	</style>
+	</head>
+	<body>
+		<div id="header">
+			Header
+
+		</div>
+		<div id="content">
+
+
+		</div>
+		<div id="footer">
+
+
+		</div>
+
+
+
+	</body>
+</html>

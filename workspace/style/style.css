@@ -1,0 +1,80 @@
+@media only screen{
+body{
+    height:1800px;
+    font-size: 12px;
+}
+#header{
+    height: 7%;
+    background-color: coral;
+    text-align: center;
+    vertical-align: middle;
+}
+#header_content{
+    padding-top:2.5%;
+}
+
+nav{
+    background-color: brown;
+    width:15%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+#container{
+    height: 69%;
+}
+
+#container-panel {
+    width:85%;
+    background-color: antiquewhite;
+    display: inline-block;
+     height: 100%;
+    vertical-align: top;
+    float: left;
+}
+
+#footer{
+    height: 15%;
+    background-color: darkred;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#image_space{
+    width:60%;
+    display: inline-block;
+}
+
+#image_span{
+     vertical-align: middle;
+}
+#name{
+    color: crimson;
+    font-size: 2em;
+    font-weight: 200;
+    font-family: Arial sans-serif;
+}
+    .top{
+        position: fixed;
+        top: 40%;
+        left: 40%;
+        width:150px;
+        height: 150px;
+        background-color: red;
+        display: inline-block;
+        z-index: 99;
+    }
+     .bottom{
+         position: absolute;
+        top: 30%;
+        left: 30%;
+        width:150px;
+        height: 150px;
+        background-color: blue;
+         display: inline-block;
+         z-index: 122;
+    }
+}
